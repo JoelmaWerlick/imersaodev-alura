@@ -1,0 +1,95 @@
+body{
+    background-image: url("https://pipocamoderna.com.br/wp-content/uploads/2016/06/suits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.container{
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    color: #DF0101;
+    font-size: 17px;
+}
+h1{
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-shadow: 1px 2px 3px #334218;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+#sortear{
+    padding: 15px;
+    width: 150px;
+    background-color: #F5A9A9;
+    border-radius: 10px;
+    border-color: #b0b8a2 ;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8A0808;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+#jogar{
+    padding: 10px;
+    width: 150px;
+    background-color: #F5A9A9;
+    border-radius: 10px;
+    border-color: #b0b8a2 ;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8A0808;
+}
+.resultado_final {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 15px;
+    background-color: #FA5858;
+}
+
+/*cartas*/
+.div_cartas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#carta_jogador, #carta_maquina{
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+.carta_subtitle {
+    z-index: 2;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#atributo{ /*input type*/
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+}
+.carta_status {
+    z-index: 2;
+    margin-top: 310px;
+    text-align: left;
+    color: #FE2E2E;
+    font-size: 18px;
+}
