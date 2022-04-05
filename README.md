@@ -1,5 +1,5 @@
 # imersaodev-alura
-Diretório criado para exposição dos projetos feitos durante a #imersaodev feita pela Alura
+Diretório criado para exposição dos projetos feitos durante a #imersaodev feita pela Alura, desenvolvidos no CodePen
 
 Conversor de moedas:
 https://codepen.io/pen?template=RwjmzEv
